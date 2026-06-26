@@ -14,11 +14,11 @@
 
 ### Task 2 - Network Security & Scanning
 
-🔄 In Progress
+✅ Completed and Submitted
 
 ### Task 3 - Web Application Security
 
-⏳ Pending
+🔄 In Progress
 
 ### Task 4 - Exploitation & System Security
 
