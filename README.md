@@ -45,3 +45,6 @@ This repository contains all reports, screenshots, notes, cheat sheets, and prac
 ## Status
 
 ✅ Task 1 Submitted Successfully
+
+
+✅ Task 2 Submitted Successfully
