@@ -45,7 +45,6 @@ Task-2-Network-Scanning-and-Enumeration
 ├── 03_Vulnerability_Scanning
 ├── 04_Packet_Analysis_with_Wireshark
 ├── 05_Firewall_Basics
-├── ScreenShots
 ├── Linux_CheatSheet.md
 └── README.md
 ```
