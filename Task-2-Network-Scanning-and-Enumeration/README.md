@@ -1,41 +1,169 @@
-🛠️ Module Execution Breakdown
+# Task 2 – Network Scanning & Enumeration
 
-🗺️ 01. Reconnaissance
+## Overview
 
-Objective: Collect technical footprint intelligence using passive data stores and active sweeps.
+This task focuses on performing network reconnaissance, port and service enumeration, vulnerability assessment, packet analysis, and basic firewall configuration using industry-standard cybersecurity tools.
 
-Key Logs & Proofs: Domain administrative mappings (apexplanet_whois.md, google_whois.md) and verified DNS lookup records (apexplanet_nslookup.md).
+The objective was to identify active hosts, discover open ports and services, analyze network traffic, assess vulnerabilities, and implement basic firewall rules.
 
-Visual Captures: Screenshot verifications for whois data, active ping sweeps, banner grabbing sessions, and advanced dork searches (01_whois.jpg through 05_shodan_google.jpg).
+---
 
-🔍 02. Port & Service Scanning
+## Objectives
 
-Objective: Identify accessible entry points, live transmission protocols, and host operating system signatures.
+- Perform network reconnaissance
+- Scan hosts using Nmap
+- Detect services and operating systems
+- Perform vulnerability assessment using OpenVAS
+- Analyze network packets using Wireshark
+- Configure basic firewall rules using iptables
+- Document all observations and findings
 
-Key Logs & Proofs: Formal documentation manuals (Port_&_Service_Scanning.docx/.pdf) outlining exact Nmap flag syntax combinations.
+---
 
-Visual Captures: Target host sweeps verifying core open port spaces, targeted TCP sequences, stateless UDP configurations, and active OS kernel stack identification maps (01_Nmap_Basic_Scans.jpg to 05_Nmap_OS_Detection.jpg).
+## Tools Used
 
-📊 03. Vulnerability Scanning
+- Kali Linux
+- Nmap
+- OpenVAS (Greenbone)
+- Wireshark
+- iptables
+- Ping
+- Whois
+- Nslookup
+- Shodan
+- Google Dorking
 
-Objective: Deploy automated network scanners to catalog structural security flaws and software vulnerabilities.
+---
 
-Key Logs & Proofs: Complete 110-page raw automated engine evaluation report (meta_2_report.pdf) paired with a compiled risk brief detailing vulnerabilities by threat level.
+## Folder Structure
 
-Visual Captures: Visual step logs illustrating backend architecture startup routines and real-time dashboard risk tracking metrics (01_openVAS_setup.jpg, 02_ulnerability_Report.jpg).
+```
+Task-2-Network-Scanning-and-Enumeration
+│
+├── 01_Reconnaissance
+├── 02_Port_&_Service_Scanning
+├── 03_Vulnerability_Scanning
+├── 04_Packet_Analysis_with_Wireshark
+├── 05_Firewall_Basics
+├── ScreenShots
+├── Linux_CheatSheet.md
+└── README.md
+```
 
-🖧 04. Packet Analysis with Wireshark
+---
 
-Objective: Intercept and parse data-in-transit payloads to trace explicit protocol exposures and DoS signatures.
+## Task Summary
 
-Key Logs & Proofs: Full analysis reports (Packet_Analysis_with_Wireshark.docx/.pdf) dissecting network streams.
+### 1. Reconnaissance
 
-Visual Captures: Step-by-step traffic logs demonstrating cleartext credential harvesting over unencrypted streams, HTTP/DNS captures, and incoming flood fingerprinting (01_HTTP_Capture.jpg to 05_SYN_flood_attack_with_hping3.jpg).
+Performed information gathering using:
 
-🧱 05. Firewall Basics
+- Whois
+- Nslookup
+- Ping
+- Banner Grabbing
+- Google Dorking
+- Shodan
 
-Objective: Formulate, configure, and evaluate local kernel packet filtering rules (iptables) to safely shield vulnerable ports.
+Collected publicly available information before active scanning.
 
-Key Logs & Proofs: Hardening design configurations and structural rule logs documented cleanly in Firewall_Basics.docx/.pdf.
+---
 
-Visual Captures: Pre-mitigation baseline visibility scans, applied iptables rule architecture configurations, and post-hardening Nmap verification sweeps confirming full port containment (01_firewall_before.jpg to 03_firewall_scans_after_rules_applied.jpg).
+### 2. Port & Service Scanning
+
+Performed network scanning using Nmap.
+
+Scans included:
+
+- Basic Scan
+- TCP Scan
+- UDP Scan
+- Service Version Detection
+- Operating System Detection
+
+Observed:
+
+- Open Ports
+- Running Services
+- Service Versions
+- Target Operating System
+
+---
+
+### 3. Vulnerability Assessment
+
+Performed vulnerability scanning using OpenVAS.
+
+The generated report contains:
+
+- Vulnerability Severity
+- CVE Information
+- Risk Description
+- Recommended Remediation
+
+---
+
+### 4. Packet Analysis
+
+Captured and analyzed network packets using Wireshark.
+
+Protocols analyzed include:
+
+- ARP
+- ICMP
+- HTTP
+- FTP
+- DNS
+- TCP
+
+Observed how different network protocols communicate and identified plaintext traffic such as FTP credentials for educational purposes.
+
+---
+
+### 5. Firewall Configuration
+
+Configured firewall rules using iptables.
+
+Performed:
+
+- Listing firewall rules
+- Allowing SSH traffic
+- Blocking Telnet traffic
+- Verifying applied rules
+
+---
+
+## Key Learning Outcomes
+
+- Network Reconnaissance
+- Host Discovery
+- Port Enumeration
+- Service Enumeration
+- Vulnerability Assessment
+- Packet Analysis
+- Firewall Rule Configuration
+- Security Documentation
+
+---
+
+## Repository Contents
+
+- Documentation
+- Scan Reports
+- Vulnerability Reports
+- Wireshark Captures
+- Firewall Configuration
+- Screenshots
+- Linux Cheat Sheet
+
+---
+
+## Author
+
+**VANAM CHENCHU PUNEETH**
+
+Cyber Security & Ethical Hacking Intern
+
+ApexPlanet Software Pvt. Ltd.
+
+2026
