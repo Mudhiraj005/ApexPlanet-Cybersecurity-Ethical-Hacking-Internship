@@ -18,11 +18,11 @@
 
 ### Task 3 - Web Application Security
 
-🔄 In Progress
+✅ Completed and Submitted
 
 ### Task 4 - Exploitation & System Security
 
-⏳ Pending
+🔄 In Progress
 
 ### Task 5 - Capstone Project & Incident Response
 
@@ -46,5 +46,7 @@ This repository contains all reports, screenshots, notes, cheat sheets, and prac
 
 ✅ Task 1 Submitted Successfully
 
-
 ✅ Task 2 Submitted Successfully
+
+✅ Task 3 Submitted Successfully
+
