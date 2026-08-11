@@ -22,11 +22,11 @@
 
 ### Task 4 - Exploitation & System Security
 
-🔄 In Progress
+✅ Completed and Submitted
 
 ### Task 5 - Capstone Project & Incident Response
 
-⏳ Pending
+🔄 In Progress
 
 ## Repository Structure
 
@@ -49,4 +49,6 @@ This repository contains all reports, screenshots, notes, cheat sheets, and prac
 ✅ Task 2 Submitted Successfully
 
 ✅ Task 3 Submitted Successfully
+
+✅ Task 4 Submitted Successfully
 
