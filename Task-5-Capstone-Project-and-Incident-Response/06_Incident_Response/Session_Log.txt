@@ -1,0 +1,69 @@
+===========================================================
+SESSION LOG
+Capstone Project – Incident Response Simulation
+===========================================================
+
+Date: 28 June 2026
+
+Environment
+-----------
+Attacker Machine : Kali Linux
+Target Machine   : Metasploitable 2
+Target IP        : 192.168.56.101
+
+-----------------------------------------------------------
+[11:46] Incident Detection
+-----------------------------------------------------------
+Metasploit Framework was running after the controlled
+exploitation phase.
+
+Active Meterpreter session detected.
+
+Command:
+sessions
+
+Result:
+Session ID : 1
+Type       : meterpreter x86/linux
+User       : root
+Target     : metasploitable.localdomain
+
+Status:
+Unauthorized remote access confirmed.
+
+-----------------------------------------------------------
+[12:25] Incident Containment
+-----------------------------------------------------------
+Command:
+sessions -k 1
+
+Result:
+Session 1 terminated successfully.
+
+Status:
+Unauthorized access removed.
+
+-----------------------------------------------------------
+[12:25] Verification
+-----------------------------------------------------------
+Command:
+sessions
+
+Result:
+No active sessions.
+
+Status:
+Containment successful.
+Incident resolved.
+
+-----------------------------------------------------------
+Lessons Learned
+-----------------------------------------------------------
+• Monitor active sessions continuously.
+• Terminate unauthorized sessions immediately.
+• Verify that no active sessions remain.
+• Document every incident response activity.
+
+===========================================================
+End of Log
+===========================================================
