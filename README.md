@@ -26,7 +26,7 @@
 
 ### Task 5 - Capstone Project & Incident Response
 
-🔄 In Progress
+✅ Completed and Submitted
 
 ## Repository Structure
 
@@ -51,4 +51,7 @@ This repository contains all reports, screenshots, notes, cheat sheets, and prac
 ✅ Task 3 Submitted Successfully
 
 ✅ Task 4 Submitted Successfully
+
+✅ Task 5 Submitted Successfully
+
 
